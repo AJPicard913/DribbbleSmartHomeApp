@@ -15,6 +15,12 @@
 		09D7795A250940B90009B19F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7792F250940B60009B19F /* ContentView.swift */; };
 		09D7795B250940B90009B19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D77930250940B90009B19F /* Assets.xcassets */; };
 		09D7795C250940B90009B19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D77930250940B90009B19F /* Assets.xcassets */; };
+		09D7796C250944F30009B19F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7796B250944F30009B19F /* Header.swift */; };
+		09D7796D250944F30009B19F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7796B250944F30009B19F /* Header.swift */; };
+		09D7796F2509469C0009B19F /* LivingRoomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7796E2509469C0009B19F /* LivingRoomSection.swift */; };
+		09D779702509469C0009B19F /* LivingRoomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7796E2509469C0009B19F /* LivingRoomSection.swift */; };
+		09D77972250948670009B19F /* LivingRoomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D77971250948670009B19F /* LivingRoomCard.swift */; };
+		09D77973250948670009B19F /* LivingRoomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D77971250948670009B19F /* LivingRoomCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		09D77950250940B90009B19F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D77954250940B90009B19F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		09D77956250940B90009B19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D7796B250944F30009B19F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		09D7796E2509469C0009B19F /* LivingRoomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomSection.swift; sourceTree = "<group>"; };
+		09D77971250948670009B19F /* LivingRoomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,9 @@
 			children = (
 				09D7792E250940B60009B19F /* SmartHomeAppApp.swift */,
 				09D7792F250940B60009B19F /* ContentView.swift */,
+				09D77971250948670009B19F /* LivingRoomCard.swift */,
+				09D7796E2509469C0009B19F /* LivingRoomSection.swift */,
+				09D7796B250944F30009B19F /* Header.swift */,
 				09D77930250940B90009B19F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D77959250940B90009B19F /* ContentView.swift in Sources */,
+				09D7796F2509469C0009B19F /* LivingRoomSection.swift in Sources */,
+				09D77972250948670009B19F /* LivingRoomCard.swift in Sources */,
+				09D7796C250944F30009B19F /* Header.swift in Sources */,
 				09D77957250940B90009B19F /* SmartHomeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +333,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D7795A250940B90009B19F /* ContentView.swift in Sources */,
+				09D779702509469C0009B19F /* LivingRoomSection.swift in Sources */,
+				09D77973250948670009B19F /* LivingRoomCard.swift in Sources */,
+				09D7796D250944F30009B19F /* Header.swift in Sources */,
 				09D77958250940B90009B19F /* SmartHomeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
